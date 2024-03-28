@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    background-image: url("images/bg-desktop.svg");
+    background-color: #866aeb;
+    background-size: cover;
+}
+::selection{
+    background-color: #31303373;
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 10px; /* largura da barra de rolagem */
+    position: absolute; /* posicionamento absoluto */
+    right: 0; /* alinhar à direita */
+    top: 20px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00000036;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+    
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background-color: #28122e77;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    cursor: grab;
+    
+}
+
+#mae img:nth-child(1){
+    
+    padding: 0px 0px 70px ;
+}
+
+
+.caixa{
+    
+    display: flex;
+    width: min-content;
+}
+.caixotes:nth-child(2){
+    display: inline-block;
+    width: min-content;
+    padding: 0 0px 0px 60px;
+}
+div.caixotes:nth-child(1) img{
+    width: 800px;
+}
+div.elementos:nth-child(1){
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+}
+div.caixotes:nth-child(2){
+    width: 700px;
+
+}
+.caixotes img {
+    width: min-content;
+}
+
+div.elementos:nth-child(2){
+    width: min-content;
+}
+
+div.elementos{
+    color: white;
+}
+
+.elementos p{
+    width: 650px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.elementos h1{
+    font-size: 50px;
+}
+#mae{
+    margin: 0 auto;
+    width: min-content;
+    padding: 100px;
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.button-34 {
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #d35df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #d35df0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 180px;
+    height: 50px;
+    word-break: break-word;
+    border: 0;
+  }
+
+ .redes *{
+    width: 50px;
+    filter: brightness(0);
+    padding: 0px 30px;
+    
+    
+  }
+.redes{
+    position: absolute;
+    bottom: 0px; /* Distância do rodapé */
+    left: 0;
+    display: flex;
+    margin-left: 1450px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.caixotes{
+    position: relative;
+}
+
